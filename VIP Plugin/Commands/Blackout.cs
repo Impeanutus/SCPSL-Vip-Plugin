@@ -59,7 +59,11 @@ namespace VIP_Plugin.Commands
                 response = "You don't have VIP";
                 return false;
             }
-
+            if(viprole.Blackout == 0)
+            {
+                response = "This server disabled this feature";
+                return false;
+            }
 
 
             PlayerData playerdata = Handelers.LoadUser.Nacist(player.UserId);

@@ -52,6 +52,12 @@ namespace VIP_Plugin.Commands
                 return false;
             }
 
+            if (viprole.MtfChaos == 0)
+            {
+                response = "This server disabled this feature";
+                return false;
+            }
+
             if (arguments.Array.Length < 2)
             {
                 response = "You didn't entered team name";

@@ -58,6 +58,11 @@ namespace VIP_Plugin.Commands
                 response = "You don't have VIP";
                 return false;
             }
+            if (viprole.ClassSpawn == 0)
+            {
+                response = "This server disabled this feature";
+                return false;
+            }
 
 
             if (arguments.Array.Length < 2)
@@ -102,8 +107,6 @@ namespace VIP_Plugin.Commands
             }
 
             PlayerData playerdata = Handelers.LoadUser.Nacist(player.UserId);
-
-            Log.Info(playerdata.DateTime);
 
             if(playerdata.DateTime == DateTime.Today)
             {
