@@ -13,7 +13,7 @@ Open EXILED config
 nano 7777-config.yml
 ```
 
-Edit VIP roles under VIP plugin (If you want to disable the advantage just put 0) example: 
+Edit VIP roles under VIP plugin (1 means that VIP can use the advantage just once a day. If you want to disable the advantage just put 0.) example: 
 
 ```bash
   - role_name: CHAD
