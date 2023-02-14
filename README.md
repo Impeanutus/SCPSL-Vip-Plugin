@@ -1,4 +1,3 @@
-
 # SCPSL-Vip-Plugin
 
 
@@ -26,7 +25,17 @@ Edit database path to your directory example:
 ```bash
   /home/users/peanut
 ```
+## Commands
 
-
-
-
+Spawn as a specific [class](Classes.md) (With default config VIP can use this 15 seconds after start of an round.)
+```bash
+.spawn <class name>
+```
+Force spawn wave (MTF/CHAOS) (VIP can use this the entire round)
+```bash
+.sw <wave name>
+```
+Blackout (With default config VIP can use this 15 seconds after start of an round.)
+```bash
+.blackout
+```

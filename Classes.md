@@ -1,0 +1,10 @@
+# Classes
+- scp049
+- scp079
+- scp096
+- scp106
+- scp173
+- scp939
+- guard
+- classd
+- scientist
